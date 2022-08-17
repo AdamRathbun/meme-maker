@@ -1,5 +1,5 @@
 import React from "react"
-
+//text empty initially but open on a meme image
 export default function Meme() {
     const [meme, setMeme] = React.useState({
         topText: "",
@@ -9,13 +9,13 @@ export default function Meme() {
     const [allMemes, setAllMemes] = React.useState([])
     
 
-    
+    //API fetch
     React.useEffect(() => {
         fetch("https://api.imgflip.com/get_memes")
             .then(res => res.json())
             .then(data => setAllMemes(data.data.memes))
     }, [])
-    
+    //roll random number then change image url
     function getMemeImage() {
         const randomNumber = Math.floor(Math.random() * allMemes.length)
         const url = allMemes[randomNumber].url
