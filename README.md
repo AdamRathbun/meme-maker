@@ -1,5 +1,5 @@
 # My Awesome Project
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+Let the people meme! Simply add captions to a randomly generated meme image.
 
 **Link to project:** https://meme-maker-premium.herokuapp.com/
 
@@ -9,25 +9,12 @@ Write a short sentence or two about this project and what it does. Be sure to in
 
 **Tech used:** React, JavaScript, HTML, and CSS
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+I built this project primarily using React. This app pulls images from an API of some of the most popular memes. You can change it by clicking the botton, which calls the API for a random meme image. When you enter your captions into (up to) two text fields, the data is collected in real time and instantly populated into the image at the top and bottom. 
 
 ## Optimizations
-*(optional)*
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+I would've liked to create my own meme API, with more customizations on how the text interacts with the image, given more time.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
-
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
-
-**Palettable:** https://github.com/alecortega/palettable
-
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
-
-
-
+This was a fun project I used to explore React more.
