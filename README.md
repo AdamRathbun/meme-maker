@@ -1,4 +1,4 @@
-# My Awesome Project
+# Meme Maker
 Let the people meme! Simply add captions to a randomly generated meme image.
 
 **Link to project:** https://meme-maker-premium.herokuapp.com/
